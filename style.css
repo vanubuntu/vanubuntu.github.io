@@ -1,0 +1,75 @@
+
+ul#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  box-shadow: 0 10px 20px -4px gray;
+}
+div#title {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  color: white;
+  font-size: 25px;
+}
+
+li {
+  float: left;
+}
+
+li.forkme {
+  float: right;
+  font-size: 20px;
+  padding: 2px;
+}
+
+a.forkmelink {
+  padding: 7px;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: lighter;
+}
+
+li a {
+  display: block;
+  color: white !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+  transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: gray;
+  font-weight: bold;
+}
+
+.description {
+  padding: 10px;
+}
+
+.vanubuntu-logo {
+  background-image: url(https://vanubuntu.github.io/logo-nowordmark.svg);
+  background-size: 35px;
+  padding-left: 35px;
+  margin-right: 5px;
+  pointer-events: none;
+}

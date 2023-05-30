@@ -75,7 +75,8 @@ li a:hover {
 }
 
 .trademark {
-  font-align: center;
+  text-align: center;
   margin: 30px;
   opacity: 50%;
+  width: 75%;
 }

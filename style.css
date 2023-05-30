@@ -73,3 +73,9 @@ li a:hover {
   margin-right: 5px;
   pointer-events: none;
 }
+
+.trademark {
+  font-align: center;
+  margin: 30px;
+  opacity: 50%;
+}
